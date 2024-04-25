@@ -1,3 +1,5 @@
+                        //THRU posto de gasolina
+
 //CRIANDO VARIÁVEIS
 let posto = prompt("Qual serviço deseja fazer:" + "\n1 = Gasolina \n2 = àlcool \n3 = Calibrar")
 
