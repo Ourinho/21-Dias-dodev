@@ -18,12 +18,15 @@ if (idade <= 17 || cnh === 'nao') {
     console.log(nome + ", você serà o motorista")
 }
 
+           //Outro modo de fazer
 /*
+//CRIANDO VARIÀVEIS
 let nome
 let idade
 let temCarta = false
 let temCarro = false
 
+//PEDINDO INFORMAÇÕES AO USUÁRIO
 nome = prompt("Digite seu nome")
 idade = parseInt(prompt("Digite sua idade"))
 let opcaoCarta = prompt("Você tem carta de motorista? (s/n)")
@@ -31,6 +34,7 @@ if (opcaoCarta == 's') {
     temCarro = false
 }
 
+//EXIBINDO MENSAGEM NO CONSOLE
 if (idade < 18 || !temCarro) {
     console.log(nome + ", você não pode digirir")
 } else if (idade >= 18 && temCarta && !temCarro) {
