@@ -1,5 +1,7 @@
+//CRIANDO VARIÁVEIS
 let posto = prompt("Qual serviço deseja fazer:" + "\n1 = Gasolina \n2 = àlcool \n3 = Calibrar")
 
+//CRIANDO SWITCHCASE
 switch (posto) {
     case "1":
         valor = Number(prompt("Quanto quer de gasolina?"))
