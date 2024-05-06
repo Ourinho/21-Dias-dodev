@@ -19,7 +19,7 @@ if (idade <= 17 || cnh === 'nao') {
 }
 
            //Outro modo de fazer
-/*
+/*8
 //CRIANDO VARIÀVEIS
 let nome
 let idade
