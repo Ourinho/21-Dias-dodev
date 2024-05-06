@@ -6,7 +6,7 @@ while(idade >= 18) {
 }
 console.log("voce e menor de idade")
 
-/*
+/*.
 let idade = 18;
 do {
     idade = Number(prompt("Insira a sua idade: "))
