@@ -1,4 +1,4 @@
-    //Declaração de variaveis
+    //Declaração de variaveis.
 
 let nome = ""
 let idade = 0
