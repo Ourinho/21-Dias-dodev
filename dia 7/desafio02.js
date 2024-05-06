@@ -1,6 +1,6 @@
                             //CAIXA ELETRONICO (DO WHILE)
                             
-let saldo = 1200;
+let saldo = 1200;        
 let continuar = false;
 let totalTransacoes = 0;
 let somarValoresInseridos = 0;
