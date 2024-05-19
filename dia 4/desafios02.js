@@ -1,5 +1,5 @@
 
-//CRIANDO VARIÀVEIS
+//CRIANDO VARIÀVEIS.
 let nome
 let idade
 
