@@ -2,7 +2,7 @@
 let array = []
 let arrayInvertido = []
 
-//POPULANDO ARRAY
+//POPULANDO ARRAY.
 for (let i = 0; i < 5; i++) {
     let numero = parseInt(prompt(`Digite o ${i + 1}° número`))
     array[i] = numero
