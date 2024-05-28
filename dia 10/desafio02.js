@@ -1,4 +1,4 @@
-//CRIANDO VARIÃVEIS 
+//CRIANDO VARIÃVEIS.
 let array = []
 let arrayInvertido = []
 
