@@ -1,4 +1,4 @@
-//CRIANDO VARIAVEIS
+//CRIANDO VARIAVEIS.
 let alunos = []
 let notas = []
 let continuar = 's'
