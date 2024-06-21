@@ -17,44 +17,46 @@ class Carro{
 }
 
 class Corrida {
-    nome
-    tipo
-    distacia
-    participantes
-    vencedor
+    Nome
+    Tipo
+    Distacia
+    Participantes
+    Vencedor
+
     constructor(nome, tipo, distacia){
-        this.nome = nome
-        this.tipo = tipo
-        this.distacia = distacia
-        this.participantes = []
-        this.vencedor = ""
+        this.Nome = nome
+        this.Tipo = tipo
+        this.Distacia = distacia
+        this.Participantes = []
+        this.Vencedor = ""
     }
 
     DefinirVencedor(){
-        let menorTempo = this.participantes[0].CalculeTempoMedio(this.distacia)
-        let vencedor = this.participantes[0]
+        let menorTempo = this.Participantes[0].CalculeTempoMedio(this.Distacia)
+        let vencedor = this.Participantes[0]
 
-        for(let index = 1; index < this.participantes.length; index++){
-            let tempo = this.participantes[index].CalculeTempoMedio(this.distacia)
+        for(let index = 1; index < this.Participantes.length; index++){
+            let tempo = this.Participantes[index].CalculeTempoMedio(this.Distacia)
             if (tempo < menorTempo) {
                 menorTempo = tempo
-                vencedor = this.participantes[index]
+                vencedor = this.Participantes[index]
             }
         }
-
-        return this.vencedor = vencedor
+        
+        return this.Vencedor = vencedor
     }
 
     ExibirVencedor(){
-        alert("O vencedor é; " + this.vencedor.nome)
+        alert("O vencedor é; " + this.Vencedor.nome)
+    
     }
 }
 
 let corrida = new Corrida("paris", "formula 1", 60000)
 
-corrida.participantes[0] = new Carro("fusca", 120, 160, 3)
-corrida.participantes[1] = new Carro("Fiat",210, 200, 6)
-corrida.participantes[2] = new Carro("palio", 300, 220, 8)
+corrida.Participantes[0] = new Carro("fusca", 120, 160, 3)
+corrida.Participantes[1] = new Carro("Fiat",210, 200, 6)
+corrida.Participantes[2] = new Carro("palio", 300, 220, 8)
 
 corrida.DefinirVencedor()
 corrida.ExibirVencedor()
