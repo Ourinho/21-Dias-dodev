@@ -47,7 +47,7 @@ class Corrida {
     }
 
     ExibirVencedor(){
-        alert("O vencedor é; " + this.Vencedor.nome)
+        alert("O vencedor é ; " + this.Vencedor.nome)
     
     }
 }
