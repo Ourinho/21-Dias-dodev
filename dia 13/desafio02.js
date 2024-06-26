@@ -54,7 +54,7 @@ class Corrida {
 
 let corrida = new Corrida("paris", "formula 1", 60000)
 
-corrida.Participantes[0] = new Carro("fusca", 120, 170, 3)
+corrida.Participantes[0] = new Carro("fusca", 120, 180, 3)
 corrida.Participantes[1] = new Carro("Fiat",210, 200, 6)
 corrida.Participantes[2] = new Carro("palio", 300, 220, 8)
 
