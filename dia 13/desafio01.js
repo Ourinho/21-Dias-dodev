@@ -19,6 +19,6 @@ class Computador {
     }
 }
 
-const meuComputador = new Computador('Desktop', 'Ryzen 5', 'dedicado', 1000, 16, true);
+const meuComputador = new Computador('Desktop', 'Ryzen 5', 'dedicado', 1000, 17, true);
 
 meuComputador.ExibirInformacoes();
