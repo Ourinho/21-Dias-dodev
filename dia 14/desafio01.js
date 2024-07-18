@@ -25,7 +25,7 @@ function calcularAumentoSalario(nome, salario) {
 
     var novoSalario = salario + (salario * aumento);
 
-    // Exibindo os resultados 
+    //Exibindo os resultados 
     console.log(`Meu nome é: ${nome}, salário é: ${salario}, meu aumento salarial é de: ${aumento * 100}%, meu salário reajustado é: ${novoSalario}.`)
 
     perguntarNovamente(); //Perguntando se deseja calcular novamente
