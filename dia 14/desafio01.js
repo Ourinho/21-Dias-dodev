@@ -28,7 +28,7 @@ function calcularAumentoSalario(nome, salario) {
     //Exibindo os resultados 
     console.log(`Meu nome é: ${nome}, salário é: ${salario}, meu aumento salarial é de: ${aumento * 100}%, meu salário reajustado é: ${novoSalario}.`)
 
-    perguntarNovamente(); // Perguntando se deseja calcular novamente
+    perguntarNovamente(); //Perguntando se deseja calcular novamente
 }
 
 //função para perguntar se o usuario deseja calcular novamente
